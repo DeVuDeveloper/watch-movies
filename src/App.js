@@ -7,7 +7,6 @@ import MovieDashboard from "./Page/MovieDashboard/MovieDashboard";
 import Search from "./Components/Search/Search";
 import SlideBar from "./Components/SlideBar/SlideBar";
 import Favorite from "./Page/Favorite/Favorite";
-import Watch from "./Page/watch/Watch";
 
 function App() {
   return (
@@ -50,15 +49,6 @@ function App() {
               <>
                 <SideBar />
                 <Favorite />
-              </>
-            }
-          />
-
-          <Route
-            path="/watch/:type/:id"
-            element={
-              <>
-                <Watch />
               </>
             }
           />
