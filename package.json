@@ -1,7 +1,6 @@
 {
   "name": "movies",
-  "homepage": "https://rogersak.github.io/",
-  "version": "0.1.0",
+  
   "private": true,
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.46",
