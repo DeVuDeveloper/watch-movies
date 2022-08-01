@@ -7,7 +7,7 @@
 <a href="https://github.com/VuDej/watch-movies.git#readme"><strong>Explore the docs »</strong></a>
 <br />
 <br />
- <a href="/">View Demo</a>
+ <a href="https://watch-movie-dejan.netlify.app">View Demo</a>
 .
 <a href="https://github.com/VuDej/watch-movies.git">Report Bug</a>
 ·
@@ -15,11 +15,9 @@
 
 </div>
 
-[App screenshot](https://example.com)
+## Screenshot
 
-## Screenshots
-
-![Screenshot](src/assets/screenshot.png)
+![Screenshot](/movies.png)
 
 ## Description 🏗️
 
