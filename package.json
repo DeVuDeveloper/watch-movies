@@ -1,11 +1,12 @@
 {
-  "name": "watch-movies",
-  "version": "0.2.1",
+  "name": "movies",
+  "homepage": "https://rogersak.github.io/",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.46",
-    "@emotion/react": "^11.10.0",
-    "@emotion/styled": "^11.10.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@jwplayer/jwplayer-react": "^1.0.4",
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",

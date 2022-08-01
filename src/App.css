@@ -1,6 +1,7 @@
 .App{
-  display: flex;
-  user-select: none;
-  height: 100vh;
-  overflow: hidden;
+    display: flex;
+    user-select: none;
+    height: 100vh;
+    overflow: hidden;
 }
+
