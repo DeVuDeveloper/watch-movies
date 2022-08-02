@@ -93,6 +93,30 @@
   overflow: hidden;
 }
 
+#alertBox {
+	position: absolute;
+	top: 5%;
+	bottom: 60%;
+	left: 40%;
+	width: 20%;
+	height: 10%;
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 2;
+  text-align: center;
+	color: red;
+  animation: hideAnimation 0s ease-in 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
 @media (max-width: 850px) {
   .movie__content {
     left: 0;

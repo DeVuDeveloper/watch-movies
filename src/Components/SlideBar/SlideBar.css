@@ -1,5 +1,5 @@
 .sidebar {
-  width: 220px;
+  width: 180px;
   background: rgb(42, 42, 42);
   height: 100vh;
 }
@@ -7,9 +7,7 @@
 .logo {
   padding-top: 15px;
   padding-left: 2rem;
-  display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .logo h3 {
@@ -18,7 +16,7 @@
 }
 
 .logo img {
-  width: 50px;
+  width: 150px;
 }
 
 .side__box {
