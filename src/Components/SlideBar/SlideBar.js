@@ -2,6 +2,7 @@ import React from "react";
 import "./SlideBar.css";
 import HomeMaxIcon from "@mui/icons-material/HomeMax";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import SideItem from "./SideItems/SideItem";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
