@@ -23,7 +23,6 @@ function Discovers({ banner, title, des, rate, Icon, release_date , type , id })
             </h3>
             <div className="button__box">
               <Link to={`${type}/${id}`}><button className="btn1">Play</button></Link>
-              <button className="btn2">My List</button>
             </div>
             <p>{truncate(des, 120)}</p>
           </div>

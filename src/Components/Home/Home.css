@@ -1,14 +1,9 @@
 .home {
   flex: 0.7;
   overflow-y: scroll;
-  overflow-x: hidden;
+
   background: var(--five-color);
   height: 100vh;
-}
-
-.home::-webkit-scrollbar {
-  display: none;
-  width: 100%;
 }
 
 .home__box,
@@ -28,7 +23,9 @@
 
 .home__box::-webkit-scrollbar,
 .home__boxx::-webkit-scrollbar {
-  display: none;
+  height: 4px;
+  width: 4px;
+  background: rgb(53, 51, 51);
 }
 
 .home .heading {

@@ -23,10 +23,9 @@ function SlideBar() {
           {" "}
           <div className="logo">
             <img
-              src="https://images.vexels.com/media/users/3/229320/isolated/preview/3dbf158d77c22e31cee5eafbdcf5ce0f-square-gradient-logo.png"
+              src="https://www.freeiconspng.com/thumbs/movie-icon/movie-icon-6.png"
               alt="logo"
             />
-            <h3>Movies</h3>
           </div>
         </Link>
         <div className="side__box">
@@ -39,15 +38,8 @@ function SlideBar() {
               Name="Favorite"
               link="/favorite"
             />
-            <SideItem Icon={AccessTimeIcon} Name="Reminder" link="/reminder" />
           </div>
-          <div className="box__two">
-            <span className="heading">Others</span>
-            <SideItem Icon={QueueIcon} Name="Playlist" link="/playlist" />
-            <SideItem Icon={PlayCircleOutlineIcon} Name="Live" link="/live" />
-            <SideItem Icon={SettingsIcon} Name="Setting" link="/setting" />
-            <SideItem Icon={CloseIcon} close />
-          </div>
+          
         </div>
         <div className="menu__icon" onClick={() => setShow(!show)}>
           <MenuIcon />

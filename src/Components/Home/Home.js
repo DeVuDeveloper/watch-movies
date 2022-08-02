@@ -1,8 +1,8 @@
-import React from "react";
-import Discovers from "./Discovers/Discovers";
-import "./Home.css";
-import StarIcon from "@mui/icons-material/Star";
-import MoviesRow from "./MoviesRow/MoviesRow";
+import React from 'react';
+import Discovers from './Discovers/Discovers';
+import './Home.css';
+import StarIcon from '@mui/icons-material/Star';
+import MoviesRow from './MoviesRow/MoviesRow';
 
 import {
   useGetDiscoverQuery,
@@ -12,10 +12,9 @@ import {
   useGetDocumentariesQuery,
   useGetHorrorQuery,
   useGetRomanceQuery,
-} from "../../features/Api";
+} from '../../features/Api';
 
 function Home() {
-
   const { data } = useGetDiscoverQuery();
   const comedyData = useGetComedyQuery();
   const topRatedData = useGetTopRatedQuery();
@@ -23,8 +22,7 @@ function Home() {
   const romanceData = useGetRomanceQuery();
   const horrorData = useGetHorrorQuery();
   const docData = useGetDocumentariesQuery();
-  console.log(topRatedData)
-  
+  console.log(topRatedData);
 
   const res =
     data?.results[Math.floor(Math.random() * data.results.length - 1)];
@@ -41,13 +39,11 @@ function Home() {
 
   const resD = docData?.data?.results;
 
-  
-
   return (
     <>
       <div className="home">
         <div className="heading top__heading">
-          <h3>Discovers</h3>{" "}
+          <h3>Discovers</h3>{' '}
         </div>
         <div className="home__boxx">
           <Discovers
@@ -69,8 +65,8 @@ function Home() {
               <MoviesRow
                 id={data?.id}
                 img={data?.poster_path}
-                title={data.original_title || data.original_name || data.title}
-                release_date={data.first_air_date}
+                title={data.original_title || data.title}
+                release_date={data.release_date}
                 rate={data.vote_average}
                 type="movie"
               />
@@ -167,7 +163,6 @@ function Home() {
             ))}
         </div>
       </div>
-     
     </>
   );
 }
