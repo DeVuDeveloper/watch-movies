@@ -73,22 +73,7 @@ function Home() {
             ))}
         </div>
 
-        {/* <div className="heading">Tv Show</div>
-        <div className="home__box">
-          {resTv &&
-            resTv.map((data) => (
-              <MoviesRow
-                id={data?.id}
-                img={data?.poster_path}
-                title={data.original_name || data.name}
-                release_date={data.first_air_date}
-                rate={data.vote_average}
-                type="tv"
-              />
-            ))}
-        </div> */}
-
-        <div className="heading">Top Rated</div>
+       <div className="heading">Top Rated</div>
         <div className="home__box">
           {resTr &&
             resTr.map((data) => (

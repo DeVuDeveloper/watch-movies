@@ -59,7 +59,7 @@ const films = [
   },
   {
     Title: 'Gabriel\'s Inferno: Part II',
-    link: 'https://b-g-eu-6.feetcdn.com:2223/v3-hls-playback/a836d76553557a398da52e0d481b5ff7215fa885e145a70dab070aea8c8d591f76adda65c90137c92424859ceb037f8aee50fde3044102b336dd23679f83e2357a05d0d119f8ebd0680f67300351896f507caf23911897dcc409564dc13e4ebd630433b7c1a6ef15c80db02d43f3755ce51bf9a0ee2e65eed09f22461d3b90f5f9e764162aed57e1cbf7a79609f58f31297bb310d0ad254e8c127ad34187aebb82899917c643849d45f6d5ce2817e05f35f2a36b79b51f7b65129fe3299be09b/720/index.m3u8',
+    link: 'https://v58rt6.serversicuro.cc/hls/dnzpefna3dg4a3gyvaih73tqytt7sbfnnhnxbxn34nb3yxgy7cf5xtfeiozq/index-v1-a1.m3u8',
     vtt: Gabriel2,
   },
   {

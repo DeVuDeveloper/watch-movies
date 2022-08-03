@@ -23,6 +23,7 @@
 
 .home__box::-webkit-scrollbar,
 .home__boxx::-webkit-scrollbar {
+  cursor: pointer;
   height: 4px;
   width: 4px;
   background: rgb(53, 51, 51);
