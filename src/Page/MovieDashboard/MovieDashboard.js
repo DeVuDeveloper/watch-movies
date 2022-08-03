@@ -12,6 +12,9 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ReactPlayer from 'react-player';
 import Jurassic from './titles/jurassic.vtt';
 import Gabriel from './titles/gabriel.vtt';
+import Gabriel2 from './titles/gabriel2.vtt';
+import Gabriel3 from './titles/gabriel3.vtt';
+import GabrielRapture from './titles/gabrielRapture.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -53,6 +56,21 @@ const films = [
     Title: 'Gabriel\'s Inferno',
     link: 'https://nqvx.vizcloud.site/simple/EqPFI_wQBAro1HhYl67rC8IuqVxV8vy3Fhp7rqk+wYMnU94US2El/br/H4/v.m3u8',
     vtt: Gabriel,
+  },
+  {
+    Title: 'Gabriel\'s Inferno: Part II',
+    link: 'https://dovl.vizcloud.site/simple/EqPFI_MQBAro1HhYl67rC5ouqFwHuf+0AwZ7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: Gabriel2,
+  },
+  {
+    Title: 'Gabriel\'s Inferno: Part III',
+    link: 'https://c-1.mzzcloud.life/_v8/2a2bd55e55b1ddde5d917ff337d7a9091f141aca2555f2090b35ac4c1620de0a50184b7a66d4adb69edbcde0a02fb592b43bb9e3b23fc6ba64f8ec3c7230d1be6c38771ba3aad0cb6bab798171f2b8153ea5e86cc9c7abb539a77e080a54e357dbedff9f635884f87f9f527848454a847d60fe2efad89c0731a2797f17c4b226/1080/index.m3u8',
+    vtt: Gabriel3,
+  },
+  {
+    Title: 'Gabriel\'s Rapture',
+    link: 'https://zqdd.vizcloud.site/simple/EqPFIPsQBAro1HhYl67rC8YuoVwa5fz1TEZ7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: GabrielRapture,
   },
 ];
 
