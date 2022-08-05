@@ -7,7 +7,7 @@ import {useNavigate} from 'react-router-dom';
 
 function SearchBar({ Icon }) {
   const dispatch = useDispatch();
-  const [query, setQuery] = useState("Spider Man");
+  const [query, setQuery] = useState("");
 
 const navigate = useNavigate();
 
@@ -24,7 +24,7 @@ const navigate = useNavigate();
           <Icon className="icon" />
           <input
             type="text"
-            placeholder="Претрага..."
+            placeholder="Search movie..."
             maxLength="20"
             value={query}
             onChange={(e) => setQuery(e.target.value)}

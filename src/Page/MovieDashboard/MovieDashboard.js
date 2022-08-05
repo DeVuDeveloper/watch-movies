@@ -15,6 +15,8 @@ import Gabriel from './titles/gabriel.vtt';
 import Gabriel2 from './titles/gabriel2.vtt';
 import Gabriel3 from './titles/gabriel3.vtt';
 import GabrielRapture from './titles/gabrielRapture.vtt';
+import Marry from './titles/marry.vtt';
+import Dont from './titles/dont.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -71,6 +73,16 @@ const films = [
     Title: 'Gabriel\'s Rapture',
     link: 'https://zqdd.vizcloud.site/simple/EqPFIPsQBAro1HhYl67rC8YuoVwa5fz1TEZ7rqk+wYMnU94US2El/br/H4/v.m3u8',
     vtt: GabrielRapture,
+  },
+  {
+    Title: 'Marry Me',
+    link: 'https://kadk.vizcloud.site/simple/EqPFI_IQBAro1HhYl67rC5curFwa4uWwDUJ7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: Marry,
+  },
+  {
+    Title: 'Don\'t Look Up',
+    link: 'https://kelk.vizcloud.site/simple/EqPFI_wQBAro1HhYl67rC5YurFwBvr7yTAR7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: Dont,
   },
 ];
 
