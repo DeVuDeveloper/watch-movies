@@ -17,6 +17,7 @@ import Gabriel3 from './titles/gabriel3.vtt';
 import GabrielRapture from './titles/gabrielRapture.vtt';
 import Marry from './titles/marry.vtt';
 import Dont from './titles/dont.vtt';
+import Strange from './titles/strange.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -47,7 +48,7 @@ const films = [
   {
     Title: 'Doctor Strange in the Multiverse of Madness',
     link: 'https://kadk.vizcloud.site/simple/EqPFI_MQBAro1HhYl67rC5Eur1wCuOX7CB97rqk+wYMnU94US2El/br/H4/v.m3u8',
-    vtt: '',
+    vtt: Strange,
   },
   {
     Title: 'Dog',
