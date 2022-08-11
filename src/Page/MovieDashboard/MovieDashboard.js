@@ -19,6 +19,7 @@ import Marry from './titles/marry.vtt';
 import Dont from './titles/dont.vtt';
 import Strange from './titles/strange.vtt';
 import Back from './titles/back.vtt';
+import Lost from './titles/lost.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -90,6 +91,11 @@ const films = [
     Title: 'I Want You Back',
     link: 'https://nnyo.vizcloud.site/simple/EqPFI_wQBAro1HhYl67rC5Quqlxbu+DxCw17rqk+wYMnU94US2El/br/H4/v.m3u8',
     vtt: Back,
+  },
+  {
+    Title: 'The Lost City',
+    link: 'https://gzmk.vizcloud.site/simple/EqPFI_IQBAro1HhYl67rC5Qu_lwBsOPyF0x7rqk+wYMnU94US2El/br/H3/v.m3u8',
+    vtt: Lost,
   },
 ];
 
