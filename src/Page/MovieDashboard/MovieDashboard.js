@@ -22,6 +22,7 @@ import Back from './titles/back.vtt';
 import Lost from './titles/lost.vtt';
 import The355 from './titles/the355.vtt';
 import Moonfall from './titles/moonfall.vtt';
+import Fantastic from './titles/fantastic.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -108,6 +109,11 @@ const films = [
     Title: "Moonfall",
     link: 'https://ajae.vizcloud.site/simple/EqPFI_8QBAro1HhYl67rC5cu_Fxeu_y3Shh7rqk+wYMnU94US2El/br/H4/v.m3u8',
     vtt: Moonfall,
+  },
+  {
+    Title: "Fantastic Beasts: The Secrets of Dumbledore",
+    link: 'https://gwpq.vizcloud.site/simple/EqPFI_kQBAro1HhYl67rC5IuoFxV+b77TwV7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: Fantastic,
   },
 ];
 
