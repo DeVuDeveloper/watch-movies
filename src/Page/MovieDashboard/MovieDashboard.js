@@ -20,6 +20,8 @@ import Dont from './titles/dont.vtt';
 import Strange from './titles/strange.vtt';
 import Back from './titles/back.vtt';
 import Lost from './titles/lost.vtt';
+import The355 from './titles/the355.vtt';
+import Moonfall from './titles/moonfall.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -96,6 +98,16 @@ const films = [
     Title: 'The Lost City',
     link: 'https://gzmk.vizcloud.site/simple/EqPFI_IQBAro1HhYl67rC5Qu_lwBsOPyF0x7rqk+wYMnU94US2El/br/H3/v.m3u8',
     vtt: Lost,
+  },
+  {
+    Title: 'The355',
+    link: 'https://vlgm.vizcloud.site/simple/EqPFI_0QBAro1HhYl67rC5Mu_lxau+O7F0N7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: The355,
+  },
+  {
+    Title: "Moonfall",
+    link: 'https://ajae.vizcloud.site/simple/EqPFI_8QBAro1HhYl67rC5cu_Fxeu_y3Shh7rqk+wYMnU94US2El/br/H4/v.m3u8',
+    vtt: Moonfall,
   },
 ];
 
@@ -207,7 +219,9 @@ function MovieDashboard(props) {
 
       <div className="movie__content">
         <div className="name">
+        console.log({data?.name || data?.original_name || data?.original_title})
           <h3>{data?.name || data?.original_name || data?.original_title}</h3>
+          
           <p>
             {truncate(data?.overview, string)}{' '}
             <span onClick={() => stringHandler()}>{show}</span>

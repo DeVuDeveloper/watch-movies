@@ -12,9 +12,9 @@ function Search() {
   const query = useSelector((state) => state.search.search);
   console.log(query);
   const { data } = useGetSearchQuery(query);
-  console.log(data);
+  
   const res = data?.results;
-  console.log(res);
+  
 
   const queryHandler = (e) => {
     e.preventDefault()
@@ -48,11 +48,13 @@ function Search() {
                 img={data?.poster_path || data?.backdrop_path}
                 popcorn={popcorn}
                 title={data.original_title || data.original_name || data.title}
+               
                 release_date={data.release_date || data.first_air_date}
                 rate={data.vote_average}
                 type="movie"
               />
             ))}
+          
         </div>
       </div>
     </>
