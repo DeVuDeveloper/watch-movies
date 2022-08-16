@@ -124,7 +124,7 @@ const films = [
   },
   {
     Title: "Cruella",
-    link: 'https://dzkk.vizcloud.site/simple/EqPFI_kQBAro1HhYl67rC5cu_Fxau7z5FwR7rqk+wYMnU94US2El/br/list.m3u8',
+    link: 'https://dzkk.vizcloud.site/simple/EqPFI_kQBAro1HhYl67rC5cu_Fxau7z5FwR7rqk+wYMnU94US2El/br/H3/v.m3u8',
     vtt: Cruela,
   },
 ];
