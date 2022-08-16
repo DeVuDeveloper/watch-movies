@@ -24,6 +24,7 @@ import The355 from './titles/the355.vtt';
 import Moonfall from './titles/moonfall.vtt';
 import Fantastic from './titles/fantastic.vtt';
 import Eternals from './titles/eternals.vtt';
+import Cruela from './titles/cruela.vtt';
 
 const useStyles = makeStyles({
   dialog: {
@@ -120,6 +121,11 @@ const films = [
     Title: "Eternals",
     link: 'https://djak.vizcloud.site/simple/EqPFI_MQBAro1HhYl67rC5Eu+VxYv+X1Qwx7rqk+wYMnU94US2El/br/H4/v.m3u8',
     vtt: Eternals,
+  },
+  {
+    Title: "Cruella",
+    link: 'https://dzkk.vizcloud.site/simple/EqPFI_kQBAro1HhYl67rC5cu_Fxau7z5FwR7rqk+wYMnU94US2El/br/list.m3u8',
+    vtt: Cruela,
   },
 ];
 
